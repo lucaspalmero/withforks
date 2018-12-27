@@ -1,0 +1,29 @@
+{
+    "name": "palmero/withforks",
+    "description": "Make your own container classes",
+    "type": "library",
+	"autoload": {
+		"psr-4": {
+			"Palmero\\": "src/",
+			"Palmero\\Withforks\\Tests\\": "tests/"
+		}
+	},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Palmero",
+            "email": "lucas@placeholder.com.ar"
+        }
+    ],
+    "scripts": {
+		"run-tests": [
+			"./vendor/phpunit/phpunit/phpunit"
+		]
+    },
+    "require": {
+        "psr/container": "^1.0"
+    }
+}
